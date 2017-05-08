@@ -3,8 +3,7 @@
 'use strict';
 
 const assert = require('chai').assert;
-
-var myApp = require('../app/library.js');
+const myApp = require('../app/library.js');
 
 describe("Arithmetic Functionality", function() {
   it("should return 2 as average for 1, 2, 3", function() {
@@ -17,7 +16,6 @@ describe("Arithmetic Functionality", function() {
     assert(myApp.computeFactorial(5) == 120);
   })
 })
-
 
 describe("Temperature Conversion Functionality", function() {
   it("should return 104 for Celcius value 40", function() {
