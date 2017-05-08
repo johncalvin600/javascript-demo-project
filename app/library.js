@@ -1,28 +1,32 @@
-'use strict'
+'use strict';
 
 module.exports = {
 
  /* Find the average of three integers */
- computeAverage: function(num1, num2, num3) {
-   var average;
+ computeAverage: (num1, num2, num3) => {
+   let average;
+   // your logic goes here
    return average;
  },
  
  /* Find the factorial of an integer */
- computeFactorial: function(num) {
-   var factorial;
+ computeFactorial: (num) => {
+   let factorial;
+   // your logic goes here
    return factorial;
  },
 
  /* Convert a given Celcius temperature to Fahrenheit */
- convertTempCtoF: function(cTemp) {
-   var fTemp;
+ convertTempCtoF: (cTemp) => {
+   let fTemp;
+   // your logic goes here
    return fTemp;
  },
 
  /* Convert a given Fahrenheit temperature to Celcius */
- convertTempFtoC: function(fTemp) {
-   var cTemp;
+ convertTempFtoC: (fTemp) => {
+   let cTemp;
+   // your logic goes here
    return cTemp;
  }
 
