@@ -6,7 +6,6 @@ module.exports = {
  computeAverage: (num1, num2, num3) => {
    let average;
    // your logic goes here
-   average = (num1 + num2 + num3) / 3;
    return average;
  },
  
