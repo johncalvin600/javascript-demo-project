@@ -11,7 +11,7 @@ module.exports = {
  
  /* Find the factorial of an integer */
  computeFactorial: (num) => {
-   let factorial;
+   let factorial ;
    // your logic goes here
    return factorial;
  },
